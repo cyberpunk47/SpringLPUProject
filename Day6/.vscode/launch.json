@@ -61,6 +61,26 @@
             "projectName": "APIGateway",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaServerApplication<Eureka-Server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.eurekatesting.Eureka_Server.EurekaServerApplication",
+            "projectName": "Eureka-Server",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SinglePageNavDemoApplication<SinglePageNavDemo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.spnd.SinglePageNavDemo.SinglePageNavDemoApplication",
+            "projectName": "SinglePageNavDemo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
