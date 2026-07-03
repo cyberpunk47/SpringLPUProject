@@ -19,6 +19,16 @@
             "projectName": "Acutator-Demo",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AopDemoApplication<AOPDemo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.demo.AopDemoApplication",
+            "projectName": "AOPDemo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
